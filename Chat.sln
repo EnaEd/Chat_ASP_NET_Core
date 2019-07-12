@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Web", "Chat.Web\Chat.Web.csproj", "{EC72C47B-ECE7-457E-8FCC-1058CBDC0E36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.DAL", "Chat.DAL\Chat.DAL.csproj", "{0D1D146C-79A5-4533-9A52-563D9226A3DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.BLL", "Chat.BLL\Chat.BLL.csproj", "{6029B9A1-7BCC-4C48-9FF7-9D7D31BB4FF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC72C47B-ECE7-457E-8FCC-1058CBDC0E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC72C47B-ECE7-457E-8FCC-1058CBDC0E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC72C47B-ECE7-457E-8FCC-1058CBDC0E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC72C47B-ECE7-457E-8FCC-1058CBDC0E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D1D146C-79A5-4533-9A52-563D9226A3DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D1D146C-79A5-4533-9A52-563D9226A3DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D1D146C-79A5-4533-9A52-563D9226A3DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D1D146C-79A5-4533-9A52-563D9226A3DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6029B9A1-7BCC-4C48-9FF7-9D7D31BB4FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6029B9A1-7BCC-4C48-9FF7-9D7D31BB4FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6029B9A1-7BCC-4C48-9FF7-9D7D31BB4FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6029B9A1-7BCC-4C48-9FF7-9D7D31BB4FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2CC544B-9355-4EBB-A080-D2F1C56B587E}
+	EndGlobalSection
+EndGlobal
